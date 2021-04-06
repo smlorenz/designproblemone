@@ -1,0 +1,22 @@
+
+public class Main {
+	
+	 public static void main(String[] args) {
+	
+	Student m = new Student(737456, "Meep Moop");
+	Student d = new Student(789654, "Dustin Cates");
+	Student s = new Student(737157, "Sam Lorenz");
+	
+	System.out.println(m); //this reads back not present,no swipe
+	
+	m.Swipe(737456);
+	System.out.println(m); //present
+	
+	d.Swipe(789654);
+	System.out.println(d); //present
+	
+	System.out.println(s); //not present
+	
+	
+	 }
+}
