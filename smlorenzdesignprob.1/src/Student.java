@@ -38,4 +38,5 @@ public class Student {
 	public ArrayList<String> dayList() { //this prints the entire list of names (?)
 		return Record(record);
 	}
+	//make class
 }
