@@ -4,7 +4,7 @@ public class Main {
 	
 	 public static void main(String[] args) {
 	
-	ArrayList<Student> a = new ArrayList<Student>();
+	ArrayList<Student> a = new ArrayList<Student>(); //making attendence for the day
 	Student m = new Student(737456, "Meep Moop");
 	Student d = new Student(789654, "Dustin Cates");
 	Student s = new Student(737157, "Sam Lorenz");
