@@ -18,7 +18,7 @@ public class Students {
 		return String.format("Student %s was here today.", this.name); //no need for id... they were here
 		}
 		else {
-			return String.format("Student %s with id %d not present.", this.name, this.id); //show missing id
+			return String.format("Student %s was not present.", this.name); //show missing id
 		}
 	}
 }
