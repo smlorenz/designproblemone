@@ -9,7 +9,7 @@ public class Main {
 	Student d = new Student(789654, "Dustin Cates");
 	Student s = new Student(737157, "Sam Lorenz");
 	
-	System.out.println(m); //this reads back not present,no swipe
+	//System.out.println(m); //this reads back not present,no swipe
 	
 	m.Swipe(737456);
 	//System.out.println(m); //present
