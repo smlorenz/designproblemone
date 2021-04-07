@@ -38,5 +38,5 @@ public class Student {
 	public ArrayList<String> dayList() { //this prints the entire list of names (?)
 		return Record(record);
 	}
-	//make class
+	//making class for attenmdencde list type student then use tostring to print
 }
